@@ -12,9 +12,9 @@ public class Review05 {
 
     public static void main(String[] args) {
         // 変数宣言
-        Connection con = null;  // DB変数宣言
-        PreparedStatement spstmt = null;    //検索用プリペアードステートメント
-        ResultSet rs =null; //結果表示用プリペアードステートメント
+        Connection con = null;  // DB用
+        PreparedStatement spstmt = null;    //検索用
+        ResultSet rs =null; //結果表示用
 
         try {
             // ドライバのクラスをJava上で読み込む
